@@ -17,7 +17,7 @@ spec:
       - name: payroll-container
         image: ${IMAGE_NAME} # Jenkins will replace this dynamically
         ports:
-        - containerPort: 80
+        - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
